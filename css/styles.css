@@ -1,0 +1,115 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+
+* {
+   font-size: 23px;
+   font-family: 'Sometype Mono', monospace;
+}
+
+.container {
+   max-width: 900px;
+   margin: 0 auto;
+}
+#email {
+   width: 800px;
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px 0px 10px 0px;
+}
+#username {
+   width: 800px;
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px 0px 10px 0px;
+}
+
+.input {
+   width: 500px;
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px 0px 10px 10px;
+   display: block;
+}
+
+.textarea {
+   width: 700px;
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px 0px 10px 10px;
+   display: block;
+}
+
+#message {
+   width: 800px;
+   max-width: 800px;
+   height: 50px;
+   max-height: 150px;
+   padding: 10px;
+   margin: 10px 0px 10px 0px;
+}
+#password {
+   width: 800px;
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px 0px 10px 0px;
+}
+.submit_button {
+   padding: 15px;
+   background-color: #333;
+   color: #fff;
+   border-radius: 5px;
+   margin: 10px 0px 0px 0px;
+   display: block;
+}
+
+.about {
+   font-size: 150px;
+}
+
+.php_text, .php_text2 .php_time, .php_dayxMonth, .php_fullday {
+   font-size: 20px;
+   margin: 5px;
+}
+
+.selectClass {
+   width: 130px;
+   border: 1px solid black;
+   padding: 15px;
+}
+
+
+.prikol {
+   transition: all .7s linear 0s;
+}
+
+.prikol:hover {
+   font-size:40px;
+   text-transform: capitalize;
+   text-decoration: underline;
+   border: 1px solid black;
+   border-radius: 10px;
+   transform: rotate(1deg);
+   padding: 10px;
+   margin: 0px 30px 0px 0px;
+   display: block;
+   color: orange;
+}
